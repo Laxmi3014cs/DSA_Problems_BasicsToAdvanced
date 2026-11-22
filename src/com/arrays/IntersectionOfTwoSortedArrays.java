@@ -27,7 +27,7 @@ public class IntersectionOfTwoSortedArrays {
             arr1[i] = sc.nextInt();
         }
         for(int i=0;i<n2;i++){
-            arr2[2] = sc.nextInt();
+            arr2[i] = sc.nextInt();
         }
         System.out.println(Arrays.toString(arr1)+" "+Arrays.toString(arr2));
         int[] res  = inserSectionOfArrays(arr1, n1, arr2, n2);
