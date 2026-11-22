@@ -1,6 +1,6 @@
 package com.arrays;
 
-import java.util.ArrayList;
+
 import java.util.Scanner;
 //Subarray is a contiguous part of an array. You can print all possible subarrays using three nested loops.
 //Total SubArrays N* (N+1)/2
@@ -13,10 +13,10 @@ public class PrintingSubArrayInTheArray {
             arr[i] = sc.nextInt();
         }
         printingSubArrays(arr,n);
-        System.out.println("Total Sub Arrays for Given Array : "+totalSubarrayCount(arr,n));
+        System.out.println("Total Sub Arrays for Given Array : "+totalSubarrayCount(n));
     }
 
-    private static int totalSubarrayCount(int[] arr, int n) {
+    private static int totalSubarrayCount( int n) {
         return n* (n+1)/2;
     }
 
